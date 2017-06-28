@@ -109,11 +109,11 @@ YourThing.prototype.connectAndSetup = function(callback) {
   }.bind(this);
 };
 
-YourThing.prototype.onDisconnect = function() {
+YourThing.prototype.onDisconnect = function(reason) {
   // clean up ...
 
   // call super's onDisconnect
-  NobleDevice.prototype.onDisconnect.call(this);
+  NobleDevice.prototype.onDisconnect.call(this, reason);
 };
 ```
 
