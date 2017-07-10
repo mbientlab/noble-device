@@ -31,6 +31,6 @@
     "async": "~0.7.0"
   },
   "dependencies": {
-    "noble": "^1.7.0"
+    "noble": "git://github.com/mbientlab/noble.git#9b0b822"
   }
 }
