@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sandeepmistry/noble-device.git"
+    "url": "https://github.com/mbientlab/noble-device.git"
   },
   "keywords": [
     "noble",
@@ -21,16 +21,16 @@
   "author": "Sandeep Mistry <sandeep.mistry@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sandeepmistry/noble-device/issues"
+    "url": "https://github.com/mbientlab/noble-device/issues"
   },
-  "homepage": "https://github.com/sandeepmistry/noble-device",
+  "homepage": "https://github.com/mbientlab/noble-device",
   "devDependencies": {
-    "jshint": "~2.4.4",
+    "jshint": "~2.9.5",
     "mocha": "~1.17.1",
     "should": "~3.1.3",
     "async": "~0.7.0"
   },
   "dependencies": {
-    "noble": "git://github.com/mbientlab/noble.git#9b0b822"
+    "noble": "git://github.com/mbientlab/noble.git#ac14759"
   }
 }
